@@ -9,10 +9,6 @@ import com.example.demo.service.Stuservice;
 
 @service
 public class Stuserviceimpl implements Stuservice{
-    /*private final Sturepository Sturepository;
-    public Stuserviceimpl(Sturepository Sturepository){
-        this.Sturepository=Sturepository;
-    }*/
    @Autowired
    Sturepository Sturepository;
 
