@@ -10,10 +10,10 @@ import com.example.demo.service.Stuservice;
 @service
 public class Stuserviceimpl implements Stuservice{
    @Autowired
-   Sturepository Sturepository;
+   Sturepository sturepository;
 
     public Stuentity saveStudent(Stuentity student){
-       return Sturepository.save(student)
+       return sturepository.save(student);
     }
 
 } 

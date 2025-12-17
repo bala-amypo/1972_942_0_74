@@ -9,9 +9,9 @@ import com.example.demo.service.Stuservice;
 @RestController
 public class Stucontroller{
     @Autowired
-    Stuservice Stuservice;
+    Stuservice studentservice;
     @PostMapping("/postdata")
     public Stuentity postdata(@RequestBody Stuentity student){
-        
+        return studentservice.saveStudent(student);
     }
 }
