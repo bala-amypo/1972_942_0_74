@@ -1,8 +1,8 @@
 package com.example.demo.service;
 
-import org.springframework.stereotype.service;
+import com.example.entity.Stuentity;
 
 @service
 public class Stuservice{
-
+             
 }
