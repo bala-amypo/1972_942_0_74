@@ -1,7 +1,10 @@
 package com.example.demo.serviceimpl;
 
+import com.example.demo.service.service;
+
 import com.example.demo.service.Stuservice;
 
-import com.example.demo.service.Service;
-
 @service
+public class Stuserviceimpl implements Stuservice{
+    
+} 
