@@ -13,7 +13,7 @@ public class Stuserviceimpl implements Stuservice{
    Sturepository sturepository;
 
     public Stuentity saveStudent(Stuentity student){
-       return sturepository.save(student);
+       return sturepository.save(student); 
     }
 
 } 
